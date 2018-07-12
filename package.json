@@ -5,7 +5,7 @@
   "homepage": "",
   "author": {
     "name": "",
-    "email": "tytia77@gmail.com",
+    "email": "",
     "url": ""
   },
   "files": [
@@ -79,6 +79,6 @@
       "prettier"
     ]
   },
-  "repository": "TyTia77/generator-custom-scaffold",
+  "repository": "",
   "license": "MIT"
 }
