@@ -1,10 +1,10 @@
 import React from 'react'
 import propTypes from 'prop-types'
 import {
-    Component,
-} from '@components'
+    Container,
+} from '@containers'
 
-export default class container extends React.Component {
+export default class screen extends React.Component {
     constructor(props) {
         super()
         this.state = {}
@@ -16,14 +16,14 @@ export default class container extends React.Component {
 
     render() {
         return (
-            <div class='container__container'>
-                This is a container
-                <Component />
+            <div className='screen1__container'>
+                This is screen one
+                <Container />
             </div>
         )
     }
 }
 
-container.propTypes = {
+screen.propTypes = {
     props: propTypes.object,
 }
