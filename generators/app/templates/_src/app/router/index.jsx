@@ -1,12 +1,6 @@
 import React from 'react'
 import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
-// import comp from '../screen/comp'
-// import valMealBf from '../screen/value-meal-bf'
-// import valMealRod from '../screen/value-meal-rod'
-// import happyMealRod from '../screen/happy-meal-rod'
-// import happyMealBf from '../screen/happy-meal-bf'
-
 import {
     Screen1,
     Screen2,
