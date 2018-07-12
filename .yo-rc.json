@@ -1,9 +1,9 @@
 {
-  "generator-node": {
-    "promptValues": {
-      "authorName": "",
-      "authorEmail": "tytia77@gmail.com",
-      "authorUrl": ""
+    "generator-node": {
+        "promptValues": {
+            "authorName": "",
+            "authorEmail": "",
+            "authorUrl": ""
+        }
     }
-  }
 }
