@@ -36,7 +36,9 @@ module.exports = class extends Generator {
             this.templatePath('_package.json'),
             this.destinationPath('package.json'),
             {
-                name: this.props.name
+                name: this.props.name.includes(' ')
+                    ? this.props.name.replace(' ', '-')
+                    : this.props.name
             }
         );
 
